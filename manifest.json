@@ -1,0 +1,10 @@
+{
+  "name": "posivity pocket",
+  "description": "a small way to remind you how awesome you are!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "home.html",
+    "default_icon": "positivitypocket.png"
+  }
+}
