@@ -2,6 +2,7 @@ h1 {
     color: pink;
     font-family: 'Send Flowers';
     text-align: center;
+    font-size: 35px;
 }
 h2 {
     color: rgb(17, 51, 22);
@@ -9,8 +10,8 @@ h2 {
     text-align: center;
 }
 body {
-    min-width: 500px;
-    min-height: 900px;
+    min-width: 300px;
+    min-height: 360px;
 }
 html {
     background-color: rgb(255, 246, 229);
