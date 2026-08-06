@@ -11,3 +11,4 @@ const messages = ['I am doing amazing!',
 'There are so many amazing things to look forward to',]
 const message = messages[Math.floor(Math.random() * messages.length)]
 console.log(message)
+document.getElementById("display").innerHTML = message;
