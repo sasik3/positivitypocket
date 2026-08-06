@@ -10,14 +10,22 @@ h2 {
     text-align: center;
 }
 h5 {
-    color: pink;
+    color: rgb(87, 49, 56);
     font-family: 'Comfortaa';
     text-align: center;
     margin-bottom: 10px;
 }
+a {
+    font-size: 10px;
+    color: rgb(87, 49, 56);
+    font-family: 'Comfortaa';
+    margin-right: 20px;
+    text-align: center;
+}
 .Resources {
     margin-top: 10px;
     display: flex;
+    align-items: center;
 }
 body {
     min-width: 300px;
