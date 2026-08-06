@@ -9,6 +9,16 @@ h2 {
     font-family: 'Send Flowers';
     text-align: center;
 }
+h5 {
+    color: pink;
+    font-family: 'Comfortaa';
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Resources {
+    margin-top: 10px;
+    display: flex;
+}
 body {
     min-width: 300px;
     min-height: 360px;
