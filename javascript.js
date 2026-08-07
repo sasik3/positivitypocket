@@ -12,4 +12,4 @@ const messages = ['I am doing amazing!',
 const message = messages[Math.floor(Math.random() * messages.length)]
 console.log(message)
 document.getElementById("display").innerHTML = message;
-document.getElementById("link").addEventListener('click', (event) => {event.preventDefault(); chrome.tabs.create({url:event.target.href});});
+document.querySelectorAll("a").forEach(link => {link.addEventListener('click', (event) => {event.preventDefault(); chrome.tabs.create({url:event.currentTarget.href});});});
