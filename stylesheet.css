@@ -30,7 +30,8 @@ a {
 body {
     min-width: 550px;
     min-height: 250px;
-    background: url('positivitypocketbg.png')
+    background: url('positivitypocketbg.png');
+    background-size: cover;
 }
 html {
     background-color: rgb(255, 246, 229);
