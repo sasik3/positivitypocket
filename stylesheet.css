@@ -28,8 +28,9 @@ a {
     align-items: center;
 }
 body {
-    min-width: 450px;
-    min-height: 360px;
+    min-width: 550px;
+    min-height: 250px;
+    background: url('positivitypocketbg.png')
 }
 html {
     background-color: rgb(255, 246, 229);
